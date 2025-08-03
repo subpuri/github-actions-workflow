@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: "print hello world"
         run: echo "Hello world"
-      - name: "Print current Job"
+      - name: "Print current date"
         run: date
        
 
