@@ -1,0 +1,20 @@
+name: "hello world workflow"
+
+
+## this will trigger the workflow when push is done to master or production branch.
+on: 
+  push:
+    branches:
+      - master
+      - production
+
+
+jobs: 
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "print hello world"
+        run: echo "Hello world"
+       
+
+
