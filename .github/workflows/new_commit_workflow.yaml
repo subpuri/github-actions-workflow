@@ -1,0 +1,16 @@
+name: "New_Commit_Workflow"
+
+
+
+on: 
+  push: {}
+
+jobs: 
+  new_commit_msg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "new commit msg"
+        run: echo "New commit has been made"
+      - name: "current date"
+        run: date
+        
